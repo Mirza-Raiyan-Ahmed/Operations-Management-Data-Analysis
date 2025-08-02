@@ -1,0 +1,39 @@
+Operations Management Data Analysis
+Project Description
+This Excel-based project serves as a robust tool for analyzing and optimizing operational and supply chain performance. It integrates data from multiple sources—including operations, products, suppliers, and facilities—to create a comprehensive view of the supply chain. The analysis focuses on key areas like quality control, supplier reliability, and inventory levels to drive improvements and reduce costs.
+
+Key Features
+Integrated Data Model: The workbook links data from multiple sheets (OperationsData, Products, Suppliers, Facilities) to provide a holistic view.
+
+Supplier Performance Analysis: A pivot table in Key Analysis tracks metrics like Days Late and DefectRate per supplier to assess performance.
+
+Quality Control Trends: The Quality Control Trends sheet uses a pivot table to analyze DefectRate by product and month, helping to identify quality issues over time.
+
+Inventory Optimization: The Inventory Optimization sheet provides insights into average inventory levels and turnover rates for different products.
+
+Calculated Metrics: The OperationsData sheet includes calculated fields for Cost Variance, Cost Variance (%), and Days Late, showcasing the use of formulas for enhanced analysis.
+
+Technologies Used
+Microsoft Excel
+
+VLOOKUP and other formulas
+
+Pivot Tables
+
+How to Use
+Data Integration: Ensure all data is correctly populated in the OperationsData, Products, Suppliers, and Facilities sheets.
+
+VLOOKUP and Formulas: Formulas are pre-configured to join data and calculate new metrics. You can review the formulas to understand the logic.
+
+Analyze Pivot Tables: The Key Analysis, Inventory Optimization, and Quality Control Trends sheets contain the core analysis. Refresh these pivot tables to update the results after changing any source data.
+
+Follow Analysis Tasks: The AnalysisTasks sheet provides a clear list of the objectives and analyses performed in this workbook.
+
+Data Schema
+OperationsData: Contains the main transactional records for each order.
+
+Products: A lookup table with details on each product.
+
+Suppliers: A lookup table with supplier information and ratings.
+
+Facilities: A lookup table with facility details.
